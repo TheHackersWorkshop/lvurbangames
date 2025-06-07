@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Las Vegas Urban Games</string>
+    <string name="scan_now">Scan Now</string>
+    <string name="default_instructions">Instructions will be displayed here.</string>
+
+
+    <string name="scavenger_hunt_instructions">How to Play the Scavenger Hunt.\n\n1. Form Teams:\n    Gather your teammates and split into two or more teams. Get ready for the ultimate scavenger hunt.\n   \n2. Download the App:\n    Make sure everyone on your team has downloaded and installed the Las Vegas Urban Games app.\n\n3. Start the Game:\n   - Open the app and go to the Scan page.\n   - Click the Scan Now button to search for the first clue beacon.\n\n4. Find the First Clue:\n   - Look for a beacon named LVSH_Clue1 in the list of found devices.\n    Tap the beacon to retrieve the first clue.\n\n5. Solve the Clue:\n    Decipher the clue or complete the activity it suggests. This will help you figure out the next location.\n\n6. Go to the Next Location:\n    Once you have solved the clue head to the next spot indicated by the clue.\n    Open the app again at the new location and scan for the next clue beacon.\n\n7. Repeat:\n    Continue solving clues moving from location to location.\n    The first team to solve all the clues and reach the final destination wins the game.</string>
+
+
+    <string name="casino_history_tour_instructions">How to Play the Casino History Tour:\n\n1. Start the Tour:\n    No teams needed. This is a self-guided tour of the historic casinos in Las Vegas.\n    Open the Las Vegas Urban Games app and head to the Scan page.\n\n2. Scan for Landmarks:\n    Click the Scan Now button to start searching for beacon signals at each casino or landmark.\n\n3. View Historical Info:\n    When you find a beacon named LVHT_Casino Name e.g., LVHT_Mirage tap on it to view the historical information.\n\n4. Explore:\n    Read up on the history of each casino including fun facts stories and mob connections.\n    There are no time limits, so take your time to explore.\n\n5. Complete the Tour:\n    Continue visiting different casinos scanning at each stop, and learn about Las Vegas fascinating history at your own pace.</string>
+
+
+    <string name="find_the_weirdo_instructions">How to Play Find the Weirdo:\n\n1. Form Teams:\n   Form two or more teams, each competing to be the first to find the Weirdo hidden somewhere on the Las Vegas Strip.\n\n2. Start the Game:\n    Open the app and navigate to the Scan page.\n    Click Scan Now to begin searching for the first clue beacon.\n\n3. Find Clue Beacons:\n    Look for beacons named LVWT_Clue n where  n  is the clue number. For example, the first clue will be labeled LVWT_Clue1.\n   Tap the beacon to retrieve clues about the Weirdo appearance or location.\n\n4. Decode the Clues:\n    Use the clues to figure out what the Weirdo looks like or where they might be.\n\n5. Search for the Weirdo:\n    The clues get more specific as you progress. Use them to narrow down the Weirdo location on the Strip.\n\n6. Be the First to Find the Weirdo:\n    The first team to find the Weirdo wins the game and the Weirdo will reward the winning team with a prize.</string>
+    <string name="scan_for_devices">Scan for Devices</string>
+    <string name="casino_history_tour">Casino History Tour</string>
+    <string name="find_the_weirdo">Find the Weirdo</string>
+    <string name="scavenger_hunt">Scavenger Hunt</string>
+    <string name="instructions_placeholder">Instructions will appear here.</string>
+</resources>
