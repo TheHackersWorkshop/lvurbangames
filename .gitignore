@@ -1,15 +1,20 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Android / Kotlin project .gitignore
+
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Local settings
 local.properties
+
+# IDE settings
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CMake/NDK
+.cxx/
