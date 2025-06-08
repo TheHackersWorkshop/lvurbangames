@@ -1,40 +1,43 @@
 # LVUrbanGames
 
-Las Vegas Urban Games is a mobile app that turns the Las Vegas Strip into an interactive scavenger hunt. It’s a real-world location-based game that uses Bluetooth Low Energy (BLE) beacons to deliver clues to players through their smartphones. Whether you're a tourist looking for something fun to do or a local looking to explore the Strip in a new way, this app is designed to get you moving, thinking, and discovering the city around you.
+Las Vegas Urban Games is a mobile app framework that turns real-world spaces into interactive scavenger hunts. Originally designed for the Las Vegas Strip, the system uses Bluetooth Low Energy (BLE) beacons to deliver clues to players through their smartphones. While the original experience was based in Vegas, the platform is fully adaptable—perfect for customizing to any city, campus, museum, event, or private venue. Whether you're running a community event, creating an educational experience, or just designing something fun, this app helps you bring exploration and discovery to the physical world.
 
 ## What the App Does
 
-The app connects to BLE beacons placed at different locations along the Las Vegas Strip. Each beacon holds a clue that leads the player to the next stop in the game. Players can choose from a few different game modes, each with its own rules and objective, but the basic mechanic remains the same: scan, receive a clue, solve it, move to the next location.
+The app connects to BLE beacons placed at various physical locations. Each beacon holds a clue that guides the player to the next stop in the game. Players can select from multiple game modes, each with its own rules and objectives—but the core gameplay stays the same: scan, receive a clue, solve it, move on.
 
-This app is free to use for personal, non-commercial purposes. You’re welcome to download it, play with friends, or explore the source code for educational use. However, commercial use or redistribution of this app, its assets, or its content is not allowed without permission.
+Because the full source code is included here, developers, students, and creators can modify the app to create their own experiences. You’re welcome to explore, adapt, and build your own local version.
+
+Note: This app is free to use for personal and educational purposes. Commercial use or redistribution of the app, assets, or content is not permitted without written permission.
 
 ## Game Modes
 
 ### Scavenger Hunt
-This is a race to the finish. Players (either solo or in teams) compete to be the first to find and solve all the clues. Each beacon reveals the next step in the journey, and the first to complete the route wins.
+A race to the finish. Players (solo or in teams) compete to be the first to find and solve all clues. Each beacon reveals the next step. First one to complete the route wins.
 
 ### Find the Weirdo
-Players are given clues about a mysterious character called "The Weirdo." These clues are hidden in BLE beacons throughout the Strip. Follow the clues, find the Weirdo, and win.
+A mystery game. Players are given clues about a strange character known as "The Weirdo." These clues are hidden in BLE beacons across the city. Solve the clues, find the Weirdo, win the prize.
 
 ### Casino History Tour
-This mode is less of a game and more of an educational walking tour. Players scan beacons placed near famous casinos to learn about their history, previous owners, and sometimes watch videos or view photos from the past.
+An educational mode. Players visit historic casino sites and scan BLE beacons that reveal stories, historical trivia, and media like photos or videos. Great for tourists or history buffs.
 
 ## How It Works
+Install the apk
+Install the Android app on a BLE-supported smartphone.
 
-1. **Download the App**  
-   Install the Las Vegas Urban Games Android app.
+Choose a Game Mode
+Game-specific instructions are available on the Home screen.
 
-2. **Choose a Game Mode**  
-   Each game has its own instructions accessible from the Home screen.
+Scan for Beacons
+Move through the environment. Beacons appear on the Scan page when in range.
 
-3. **Scan for Beacons**  
-   Walk around the city. When you're near a BLE beacon, the app will show it on the Scan screen. Select it to retrieve the clue.
+Read and Solve Clues
+Clues are displayed on the Info screen and persist locally during your session.
 
-4. **Solve the Clue**  
-   Clues appear in the Info screen. Follow the instructions or solve the puzzle to find the next beacon.
+Reset as Needed
+When finished or restarting, players can clear their clue history from the Info screen.
 
-5. **Continue or Reset**  
-   The Info screen saves all your clues. You can clear it at any time to start over.
+
 
 ## Technical Details
 
@@ -46,24 +49,24 @@ This mode is less of a game and more of an educational walking tour. Players sca
 
 ## ESP32 Beacons
 
-The beacons used in the game are powered by ESP32 microcontrollers. Each one is programmed to broadcast a unique identifier and respond with a clue stored in its Bluetooth characteristics. These clues are retrieved directly by the app when a user connects.
-
-The firmware for these beacons is planned to be released in a separate repository. It can be used to build your own custom beacons if you're interested in hosting your own version of the game or learning how it works behind the scenes.
+The beacons used in this game are powered by ESP32 microcontrollers. Each beacon:
+Advertises a unique Bluetooth identifier (e.g., LVSH_Clue1)
+Stores clue text in a BLE characteristic
+Responds to scans from the app with the stored clue
+The firmware for these beacons is available in a separate repository so you can create your own, modify the clues, or build new game routes.
 
 ## File Structure
 
-This repository includes only the necessary source code for the Android app. Temporary files, caches, and large binaries have been filtered out to keep the repository lightweight and clean.
+This repository contains only the source code for the Android app. All unnecessary files (e.g., cache folders, binaries, and wrappers) have been removed to keep the repo clean and lightweight.
 
 ## License and Use
 
-Las Vegas Urban Games is free to use, modify, and study for personal and educational purposes. Commercial use is not permitted without written permission. If you're interested in licensing or collaborating on a commercial version of the game, please reach out through the GitHub contact options.
+Las Vegas Urban Games is released under a non-commercial license. It is free to use, modify, and study for personal, educational, and community projects.
+## Commercial use, resale, or redistribution is not permitted without written permission.
+If you're interested in a commercial license, collaboration, or adapting the system for your organization, feel free to contact the maintainer.
 
 ## Contact
 
-Project by David Rosales  
+Project by David Rosales ~ Reimagined Innovations LLC 2024
+ 
 Repository: https://github.com/TheHackersWorkshop/LVUrbanGames
-
----
-
-This project was  apart of a my other company and I am offering it under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
-
