@@ -1,10 +1,10 @@
 # LVUrbanGames
 
-Las Vegas Urban Games is a mobile app framework that turns real-world spaces into interactive scavenger hunts. Originally designed for the Las Vegas Strip, the system uses Bluetooth Low Energy (BLE) beacons to deliver clues to players through their smartphones. While the original experience was based in Vegas, the platform is fully adaptable—perfect for customizing to any city, campus, museum, event, or private venue. Whether you're running a community event, creating an educational experience, or just designing something fun, this app helps you bring exploration and discovery to the physical world.
+Las Vegas Urban Games is a mobile app framework that turns real-world spaces into interactive scavenger hunts. Originally designed for the Las Vegas Strip, the system uses Bluetooth Low Energy (BLE) beacons to deliver clues to players through their smartphones. While the original experience was based in Vegas, the platform is fully adaptable. Perfect for customizing to any city, campus, museum, event, or private venue. Whether you're running a community event, creating an educational experience, or just designing something fun, this app helps you bring exploration and discovery to the physical world.
 
 ## What the App Does
 
-The app connects to BLE beacons placed at various physical locations. Each beacon holds a clue that guides the player to the next stop in the game. Players can select from multiple game modes, each with its own rules and objectives—but the core gameplay stays the same: scan, receive a clue, solve it, move on.
+The app connects to BLE beacons placed at various physical locations. Each beacon holds a clue that guides the player to the next stop in the game. Players can select from multiple game modes, each with its own rules and objectives, but the core gameplay stays the same: scan, receive a clue, solve it, move on.
 
 Because the full source code is included here, developers, students, and creators can modify the app to create their own experiences. You’re welcome to explore, adapt, and build your own local version.
 
