@@ -68,5 +68,4 @@ If you're interested in a commercial license, collaboration, or adapting the sys
 ## Contact
 
 Project by David Rosales ~ Reimagined Innovations LLC 2024
- 
-Repository: https://github.com/TheHackersWorkshop/LVUrbanGames
+# Email lvurbangames@gmail.com
