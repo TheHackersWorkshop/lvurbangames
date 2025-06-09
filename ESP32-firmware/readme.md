@@ -31,7 +31,7 @@ This would guide players toward a themed destination on the Strip.
 
 ### Uploading the Firmware
 
-1. Open the firmware `.ino` file (or `.cpp`) in the Arduino IDE.
+1. Open the firmware `.ino` file in the Arduino IDE.
 2. Connect your ESP32 board.
 3. Select the correct board and port from **Tools > Board** and **Port**.
 4. Click **Upload**.
@@ -45,6 +45,7 @@ To create other clue beacons:
 - Change `DEVICE_NAME` to match the clue (e.g. `LVSH_Clue2`)
 - Change `CLUE_TEXT` to the new riddle or message
 - Flash each ESP32 with a different clue and label them accordingly
+### NOTE: You will need to make sure that the SERVICE_UUID and CHARACTERISTIC_UUID are unique on each ESP32. 
 
 ## Licensing
 
