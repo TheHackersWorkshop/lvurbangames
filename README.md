@@ -2,7 +2,7 @@
 
 Las Vegas Urban Games is a mobile app framework that turns real-world spaces into interactive scavenger hunts. Originally designed for the Las Vegas Strip, the system uses Bluetooth Low Energy (BLE) beacons to deliver clues to players through their smartphones. While the original experience was based in Vegas, the platform is fully adaptable. Perfect for customizing to any city, campus, museum, event, or private venue. Whether you're running a community event, creating an educational experience, or just designing something fun, this app helps you bring exploration and discovery to the physical world.
 
-### A video that explains the use and the understanding the code here: 
+### A video that explains the use and understanding the code here: 
 https://www.youtube.com/watch?v=tK93MUKVPMM
 
 ## What the App Does
